@@ -4,10 +4,3 @@ data:
 kind: ConfigMap
 metadata:
   name: cart
----
-apiVersion: v1
-data:
-  product.env: USERNAME=admin
-kind: ConfigMap
-metadata:
-  name: product
